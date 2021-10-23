@@ -1,0 +1,1 @@
+SELECT * FROM apply INNER JOIN issue ON issue.MemID=apply.MemID WHERE apply.ApplicationID=1;
